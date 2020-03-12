@@ -5,7 +5,7 @@ def oxford_comma(phrase)
   elsif phrase.length == 2 
     return "#{phrase[0]} and #{phrase[1]}"
   else 
-    return phrase.slice()
+    return phrase.slice(0,-2)
   end  
 end     
 
